@@ -1,0 +1,129 @@
+nav.navbar-default {
+  background-color: white;
+  border-color: white;
+}
+
+.navigation {
+  margin-bottom: 10px;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.hours {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.location-header {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+div.navbar.navbar-inverse {
+  margin: 0px 0px 0px;
+  color: white;
+}
+
+.banner-image {
+  background-image: url("https://images.unsplash.com/photo-1474128152370-bdcae88930f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.banner-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+div.row {
+  margin-bottom: 20px;
+}
+
+/*MENU BEGINNING*/
+.menu {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.menu h5 {
+  font-size: 1.5em;
+}
+
+.menu-image {
+   margin-top: 60px;
+}
+
+.menu-image h2 {
+  text-align: center;
+}
+/*MENU ENDING*/
+
+.thumbnail {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+/*CONTACT BEGINNING*/
+form {
+  padding: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid RosyBrown;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: teal;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: gray;
+}
+
+.contact-blurb {
+  margin-top: 45%;
+  font-size: 20px;
+}
+
+/*CONTACT ENDING*/
